@@ -1,0 +1,24 @@
+[20-May-2018 01:52:50 Asia/Jakarta] PHP Warning:  include_once(koneksinews.php): failed to open stream: No such file or directory in /home/noer1596/public_html/webadmin/berita.php on line 2
+[20-May-2018 01:52:50 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'koneksinews.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/noer1596/public_html/webadmin/berita.php on line 2
+[20-May-2018 01:52:52 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 5
+[20-May-2018 01:52:52 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 6
+[20-May-2018 01:52:52 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 7
+[20-May-2018 01:52:52 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 8
+[20-May-2018 01:52:52 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 27
+[20-May-2018 01:52:52 Asia/Jakarta] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 50
+[20-May-2018 01:54:25 Asia/Jakarta] PHP Warning:  include_once(koneksinews.php): failed to open stream: No such file or directory in /home/noer1596/public_html/webadmin/berita.php on line 2
+[20-May-2018 01:54:25 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'koneksinews.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/noer1596/public_html/webadmin/berita.php on line 2
+[20-May-2018 01:54:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 5
+[20-May-2018 01:54:27 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 6
+[20-May-2018 01:54:27 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 7
+[20-May-2018 01:54:27 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 8
+[20-May-2018 01:54:27 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 27
+[20-May-2018 01:54:27 Asia/Jakarta] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 50
+[20-May-2018 01:55:37 Asia/Jakarta] PHP Warning:  include_once(koneksinews.php): failed to open stream: No such file or directory in /home/noer1596/public_html/webadmin/berita.php on line 2
+[20-May-2018 01:55:37 Asia/Jakarta] PHP Warning:  include_once(): Failed opening 'koneksinews.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/noer1596/public_html/webadmin/berita.php on line 2
+[20-May-2018 01:55:39 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 5
+[20-May-2018 01:55:39 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 6
+[20-May-2018 01:55:39 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 7
+[20-May-2018 01:55:39 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 8
+[20-May-2018 01:55:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/noer1596/public_html/webadmin/berita.php on line 27
+[20-May-2018 01:55:39 Asia/Jakarta] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/noer1596/public_html/webadmin/berita.php on line 50

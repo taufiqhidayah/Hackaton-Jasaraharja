@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kamak.skripsweetnewwes">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".upload"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profil"
+            android:label="@string/app_name"
+            android:parentActivityName=".NavigationDrawer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer" />
+        </activity>
+        <activity
+            android:name=".post_review"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".newsuser"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kamak.skripsweetnewwes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".detailnewsuser"
+            android:noHistory="true" />
+        <activity
+            android:name=".reviewnews"
+            android:noHistory="true" />
+        <activity
+            android:name=".proses"
+            android:noHistory="true" />
+        <activity
+            android:name=".lvkomentar"
+            android:noHistory="true" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".berita"
+            android:noHistory="true" />
+        <activity
+            android:name=".all"
+            android:label="@string/title_activity_all"
+            android:noHistory="true" />
+        <activity
+            android:name=".proses_perbaikan"
+            android:label="@string/title_activity_proses_perbaikan"
+            android:noHistory="true" />
+        <activity
+            android:name=".selesai_perbaikan"
+            android:label="@string/title_activity_selesai_perbaikan"
+            android:noHistory="true" />
+        <activity
+            android:name=".View"
+            android:noHistory="true" />
+        <activity
+            android:name=".beritasaya"
+            android:noHistory="true" />
+        <activity
+            android:name=".kirim"
+            android:noHistory="true" />
+        <activity
+            android:name=".home"
+            android:noHistory="true" />
+        <activity
+            android:name=".DetailNews"
+            android:noHistory="true" />
+        <activity
+            android:name=".dasar"
+            android:noHistory="true" />
+        <activity
+            android:name=".petunjuk"
+            android:noHistory="true" />
+        <activity
+            android:name=".profil_user"
+            android:noHistory="true" />
+        <activity android:name=".login" />
+        <activity
+            android:name=".menu_activity"
+            android:noHistory="true" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".editprofil"
+            android:noHistory="true" />
+        <activity
+            android:name=".selectimage"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".foto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".draft" />
+        <activity
+            android:name=".koment"
+            android:noHistory="true" />
+        <activity
+            android:name=".lvmynews"
+            android:noHistory="true" />
+        <activity
+            android:name=".komentar"
+            android:noHistory="true" />
+        <activity
+            android:name=".lvkomentarnew"
+            android:noHistory="true" />
+        <activity
+            android:name=".fotokomen"
+            android:noHistory="true" />
+        <activity
+            android:name=".komentargambar"
+            android:noHistory="true" />
+        <activity android:name=".detailnews2" />
+        <activity android:name=".lupapass" />
+        <activity android:name=".isipass" />
+        <activity android:name=".isiname" />
+        <activity android:name=".menu" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navmenu.ActivitySms"
+            android:label="@string/title_activity_sms"
+            android:parentActivityName=".NavigationDrawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kamak.skripsweetnewwes.NavigationDrawer" />
+        </activity>
+        <activity
+            android:name=".navmenu.PanduanActivity"
+            android:label="@string/title_activity_panduan"
+            android:parentActivityName=".NavigationDrawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kamak.skripsweetnewwes.NavigationDrawer" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+link website admin = http://noer.co.id/webadmin
+
+
+Akun Jasa Raharja
+username = admin
+password = admin
+
+Akun rumah sakit
+username = adminrs
+password = adminrs

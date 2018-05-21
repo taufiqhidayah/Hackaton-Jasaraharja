@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="Jasa Raharja"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/logojasaraharja"
+            android:foregroundGravity="top|center"
+            app:srcCompat="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Aplikasi SiagaRaharja"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_below="@+id/layout_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp">
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView2"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableRowBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/txa10"
+                    android:padding="2dp"
+                    android:text=""></TextView>
+
+                <Button
+                    android:id="@+id/btnpost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="88dp"
+                    android:drawableTop="@mipmap/tulis"
+                    android:gravity="center|center_horizontal"
+                    android:padding="1dp"
+                    android:text="posting"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txb10"
+                    android:padding="2dp"
+                    android:text=""></TextView>
+
+                <Button
+                    android:id="@+id/btnberita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="88dp"
+                    android:drawableTop="@mipmap/news"
+                    android:gravity="center|center_horizontal"
+                    android:padding="1dp"
+                    android:text="berita"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txc20"
+                    android:padding="2dp"
+                    android:text=""></TextView>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView2"
+            android:paddingTop="10dp"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableRowBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/txa18"
+                    android:padding="2dp"
+                    android:text=""></TextView>
+
+                <Button
+                    android:id="@+id/btnprofil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="88dp"
+                    android:drawableTop="@mipmap/profil"
+                    android:gravity="center|center_horizontal"
+                    android:padding="1dp"
+                    android:text="Profil"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txd30"
+                    android:padding="2dp"
+                    android:text=""></TextView>
+
+
+                <Button
+                    android:id="@+id/btnlogout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="88dp"
+                    android:drawableTop="@mipmap/keluar"
+                    android:gravity="center|center_horizontal"
+                    android:padding="1dp"
+                    android:text="Logout"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txa19"
+                    android:padding="2dp"
+                    android:text=""></TextView>
+
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

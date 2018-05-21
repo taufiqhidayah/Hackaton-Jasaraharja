@@ -1,0 +1,20 @@
+
+	<script src="jquery.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#username').blur(function(){
+			$('#pesan').html('<img style="margin-left:10px; width:10px" src="loading.gif">');
+			var username = $(this).val();
+
+			$.ajax({
+				type	: 'POST',
+				url 	: 'proses.php',
+				data 	: 'username='+username,
+				success	: function(data){
+					$('#pesan').html(data);
+				}
+			})
+
+		});
+	});
+	</script>
